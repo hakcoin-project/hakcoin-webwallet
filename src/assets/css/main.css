@@ -459,9 +459,9 @@ body.transparent #copyright{
 	position: relative;
 	/*background: url(../img/binary-background.jpg) #146DBD;*/
 	text-align: center;
-	background-image: -webkit-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0)), url(../img/landing/75-usersthink-stock-image.jpg);
-	background-image: -o-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0)), url(../img/landing/75-usersthink-stock-image.jpg);
-	background-image: linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0)), url(../img/landing/75-usersthink-stock-image.jpg);
+	background-image: -webkit-linear-gradient(rgba(62, 75, 92, 0), rgba(62, 75, 92, 0)), url(../img/landing/75-usersthink-stock-image.jpg);
+	background-image: -o-linear-gradient(rgba(62, 75, 92, 0), rgba(62, 75, 92, 0)), url(../img/landing/75-usersthink-stock-image.jpg);
+	background-image: linear-gradient(rgba(62, 75, 92, 0), rgba(62, 75, 92, 0)), url(../img/landing/75-usersthink-stock-image.jpg);
 	background-position: center center;
 	background-size: cover;
 	margin-bottom:160px;
