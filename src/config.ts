@@ -5,21 +5,21 @@ global.config = {
 		'https://wallet.hakcoin.org:38784/'
 	],
 	phpRelay:typeof window !== 'undefined' ? true : false,
-	mainnetExplorerUrl: "https://hakchain.net/",
-	mainnetExplorerUrlHash: "https://hakchain.net/tx/{ID}",
-	mainnetExplorerUrlBlock: "https://hakchain.net/block/{ID}",
-	testnetExplorerUrl: "http://testnet.hakchain.net/",
-	testnetExplorerUrlHash: "http://testnet.hakchain.net/tx/{ID}",
-	testnetExplorerUrlBlock: "http://testnet.hakchain.net/block/{ID}",
+	mainnetExplorerUrl: "https://explorer.hakcoin.org/",
+	mainnetExplorerUrlHash: "https://explorer.hakcoin.org/tx/{ID}",
+	mainnetExplorerUrlBlock: "https://explorer.hakcoin.org/block/{ID}",
+	testnetExplorerUrl: "http://testnet.hakcoin.org/",
+	testnetExplorerUrlHash: "http://testnet.hakcoin.org/tx/{ID}",
+	testnetExplorerUrlBlock: "http://testnet.hakcoin.org/block/{ID}",
 	testnet: false,
-	coinUnitPlaces: 12,
+	coinUnitPlaces: 9,
 	txMinConfirms: 10,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monero
 	txCoinbaseMinConfirms: 60, // corresponds to CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW in Monero
-	addressPrefix: 28,
-	integratedAddressPrefix: 29,
+	addressPrefix: 0x15cff2,
+	integratedAddressPrefix: 0x611c76a8ff2,
 	addressPrefixTestnet: 33,
 	integratedAddressPrefixTestnet: 34,
-	subAddressPrefix: 52,
+	subAddressPrefix: 0x25e046a028ff2,
 	subAddressPrefixTestnet: 73,
 	feePerKB: new JSBigInt('400000000'),//20^10 - for testnet its not used, as fee is dynamic.
 	dustThreshold: new JSBigInt('1000000000'),//10^10 used for choosing outputs/change - we decompose all the way down if the receiver wants now regardless of threshold
